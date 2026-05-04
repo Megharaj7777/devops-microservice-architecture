@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: build-service
-        image: build-service:latest
+        image: meghu7777/build-service:latest
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

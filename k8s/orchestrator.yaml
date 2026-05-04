@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: orchestrator
-        image: orchestrator:latest
+        image: meghu7777/orchestrator-service:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
 ---

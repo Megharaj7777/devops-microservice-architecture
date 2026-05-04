@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: test-service
-        image: test-service:latest
+        image: meghu7777/test-service:latest
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
